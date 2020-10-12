@@ -23,7 +23,8 @@ EXPERIMENTAL_OPTIONS := \
     --set global.hubble.tls.enabled=false \
     --set global.hubble.metrics.enabled="{dns,drop,tcp,flow,port-distribution,icmp,http}" \
     --set global.hubble.relay.enabled=true \
-    --set global.hubble.ui.enabled=true
+    --set global.hubble.ui.enabled=true \
+    --set global.bandwidthManager=true
 
 all: update-versions $(QUICK_INSTALL) $(EXPERIMENTAL_INSTALL)
 

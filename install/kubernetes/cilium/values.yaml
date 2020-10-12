@@ -341,7 +341,7 @@ global:
 
   # bandwidthManager enables BBR and FQ + EDT + BPF based rate-limiting for
   # Pods that are annotated with kubernetes.io/egress-bandwidth.
-  bandwidthManager: true
+  bandwidthManager: false
 
   # kubeProxyReplacement enables kube-proxy replacement in Cilium BPF datapath
   kubeProxyReplacement: "probe"
